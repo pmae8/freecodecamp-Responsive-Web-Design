@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#navbar {
+    background-color: #f2f2f2;
+    position: fixed; /* Fix navbar to top */
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Ensure navbar is on top */
+    padding: 10px 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for nav links */
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+#welcome-section {
+    height: 100vh; /* Make welcome section full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-tile {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+    #navbar ul {
+        justify-content: center; /* Center nav links on smaller screens */
+    }
+}

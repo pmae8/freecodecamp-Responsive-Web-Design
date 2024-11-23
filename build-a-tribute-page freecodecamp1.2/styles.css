@@ -1,0 +1,39 @@
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    text-align: center; /* Center the image within its parent */
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; /* Prevents image from overflowing its container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    color: blue;
+}

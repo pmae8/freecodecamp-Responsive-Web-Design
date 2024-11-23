@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header><h1>Python Documentation</h1></header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Variables_and_Data_Types" class="nav-link">Variables and Data Types</a></li>
+            <li><a href="#Operators" class="nav-link">Operators</a></li>
+            <li><a href="#Control_Flow" class="nav-link">Control Flow</a></li>
+            <li><a href="#Functions" class="nav-link">Functions</a></li>
+            <li><a href="#Data_Structures" class="nav-link">Data Structures</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header><h2>Introduction</h2></header>
+            <p>Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.</p>
+            <p>Python supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+        </section>
+
+        <section id="Variables_and_Data_Types" class="main-section">
+            <header><h2>Variables and Data Types</h2></header>
+            <p>Variables are used to store data values. Python has various data types including:</p>
+            <ul>
+                <li><b>Numeric Types:</b> int, float, complex</li>
+                <li><b>Text Type:</b> str</li>
+                <li><b>Boolean Type:</b> bool</li>
+                <li><b>Sequence Types:</b> list, tuple, range</li>
+                <li><b>Mapping Type:</b> dict</li>
+            </ul>
+            <code>
+                # Example
+                name = "John Doe" 
+                age = 30
+                is_student = True
+            </code>
+        </section>
+
+        <section id="Operators" class="main-section">
+            <header><h2>Operators</h2></header>
+            <p>Operators are used to perform operations on variables and values.</p>
+            <p><b>Arithmetic operators:</b> +, -, *, /, //, %, **</p>
+            <p><b>Comparison operators:</b> ==, !=, >, <, >=, <=</p>
+            <p><b>Logical operators:</b> and, or, not</p>
+            <code>
+                # Example
+                sum = 10 + 5
+                is_equal = 10 == 10
+            </code>
+        </section>
+
+        <section id="Control_Flow" class="main-section">
+            <header><h2>Control Flow</h2></header>
+            <p>Control flow statements are used to control the execution of code.</p>
+            <p><b>Conditional Statements:</b> if, elif, else</p>
+            <p><b>Loops:</b> for, while</p>
+            <code>
+                # Example
+                if age >= 18:
+                    print("You are an adult")
+                else:
+                    print("You are a minor")
+            </code>
+        </section>
+
+        <section id="Functions" class="main-section">
+            <header><h2>Functions</h2></header>
+            <p>A function is a block of code which only runs when it is called.</p>
+            <code>
+                # Example
+                def greet(name):
+                    print("Hello, " + name + "!")
+
+                greet("John")
+            </code>
+        </section>
+
+        <section id="Data_Structures" class="main-section">
+            <header><h2>Data Structures</h2></header>
+            <p>Data structures are used to store collections of data.</p>
+            <p><b>Lists:</b> ordered, changeable, allow duplicate values.</p>
+            <p><b>Tuples:</b> ordered, unchangeable, allow duplicate values.</p>
+            <p><b>Dictionaries:</b> unordered, changeable, indexed, no duplicate members.</p>
+            <code>
+                # Example
+                my_list = ["apple", "banana", "cherry"]
+                my_tuple = ("apple", "banana", "cherry")
+                my_dict = {"name": "John", "age": 30}
+            </code>
+        </section>
+    </main>
+</body>
+</html>
+
